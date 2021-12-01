@@ -1,0 +1,16 @@
+.intro {
+  max-width: var(--card-width-mobile);
+  margin: 0 auto;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin: 0 0 2rem 0;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.intro p {
+  font-weight: 500;
+  opacity: 0.6;
+}

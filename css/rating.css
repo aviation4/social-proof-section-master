@@ -1,0 +1,31 @@
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 3.5rem auto;
+}
+
+.rating-card {
+  background-color: var(--neutral-light-magneta);
+  border-radius: 10px;
+  padding: 1rem;
+  width: 100%;
+  max-width: var(--card-width-mobile);
+}
+
+.rating-card-stars {
+  padding: 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.rating-card p {
+  color: var(--primary-magneta);
+  font-weight: 700;
+  opacity: 1;
+  margin: 0.4rem 0 0 0;;
+}

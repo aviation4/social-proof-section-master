@@ -1,0 +1,42 @@
+:root {
+  --primary-magneta: hsl(300, 43%, 22%);
+  --primary-pink: hsl(333, 80%, 67%);
+
+  --neutral-dark-magneta: hsl(303, 10%, 53%);
+  --neutral-light-magneta: hsl(300, 24%, 96%);
+  --neutral-white: hsl(0, 0%, 100%);
+
+  --card-width-mobile: 650px;
+  --card-width-desktop: 400px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 15px;
+}
+
+body {
+  background-image: url("../images/bg-pattern-top-desktop.svg"),
+                    url("../images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-size: 100% 80%;
+  height: 100vh;
+  margin: 0;
+  font-family: Spartan, sans-serif;
+  color: var(--primary-magneta);
+  text-align: center;
+  line-height: 1.5;
+  min-width: 320px;
+}
+
+main {
+  max-width: 1800px;
+  padding: 4rem 1.8rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
